@@ -14,7 +14,7 @@ def main():
     num_of_processed_pages = 1
     # Instantiate webdriver using headless Chrome broswer
     options = Options()
-    options.headless = True
+    # options.headless = True
     dr = webdriver.Chrome(ChromeDriverManager().install(), options=options)
     # URL for real estate headers in Cluj-Napoca, Romania
     dr.get('https://www.imobiliare.ro/vanzare-apartamente/cluj-napoca')
@@ -93,7 +93,7 @@ def get_all_info(soupObj):
     local = get_location_list(soupObj)
     charact = get_characteristics_list(soupObj)
     prices = get_prices_list(soupObj)
-    scraped_date = [date.today().strftime("%d/%m/%Y")]
+    scraped_date = [date.today().strftime("%Y/%m/%d")]
     all_info = []
     for (l, c ,p) in zip(local, charact, prices):
         all_info.append(l + c + p + scraped_date)

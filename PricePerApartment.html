@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="70f8acf4-2379-497c-998f-64d115307b56" data-root-id="1003"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1111">
+          {"6d47bfdf-7ca9-4330-8b94-583ba6bcfc19":{"roots":{"references":[{"attributes":{"data_source":{"id":"1001"},"glyph":{"id":"1023"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1024"},"selection_glyph":null,"view":{"id":"1026"}},"id":"1025","type":"GlyphRenderer"},{"attributes":{},"id":"1033","type":"Selection"},{"attributes":{},"id":"1015","type":"CategoricalTicker"},{"attributes":{"below":[{"id":"1014"}],"center":[{"id":"1016"},{"id":"1020"}],"left":[{"id":"1017"}],"outline_line_color":null,"plot_height":350,"plot_width":1500,"renderers":[{"id":"1025"}],"title":{"id":"1004"},"toolbar":{"id":"1021"},"toolbar_location":null,"x_range":{"id":"1006"},"x_scale":{"id":"1010"},"y_range":{"id":"1008"},"y_scale":{"id":"1012"}},"id":"1003","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1031","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1032","type":"UnionRenderers"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto"},"id":"1021","type":"Toolbar"},{"attributes":{"factors":["1","2","3","4","5","6","7"],"palette":["#5e4fa2","#3288bd","#66c2a5","#abdda4","#e6f598","#fee08b","#fdae61","#f46d43","#d53e4f","#9e0142"]},"id":"1002","type":"CategoricalColorMapper"},{"attributes":{},"id":"1029","type":"BasicTickFormatter"},{"attributes":{"axis":{"id":"1017"},"dimension":1,"ticker":null},"id":"1020","type":"Grid"},{"attributes":{"start":0},"id":"1008","type":"DataRange1d"},{"attributes":{"axis_label":"Cluj region","formatter":{"id":"1031"},"major_label_orientation":1.2,"ticker":{"id":"1015"}},"id":"1014","type":"CategoricalAxis"},{"attributes":{},"id":"1018","type":"BasicTicker"},{"attributes":{"text":"Mean price by Cluj num of rooms"},"id":"1004","type":"Title"},{"attributes":{},"id":"1012","type":"LinearScale"},{"attributes":{},"id":"1010","type":"CategoricalScale"},{"attributes":{"formatter":{"id":"1029"},"ticker":{"id":"1018"}},"id":"1017","type":"LinearAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"rooms_num","transform":{"id":"1002"}},"line_alpha":{"value":0.1},"line_color":{"field":"rooms_num","transform":{"id":"1002"}},"top":{"field":"price_count"},"width":{"value":1},"x":{"field":"rooms_num"}},"id":"1024","type":"VBar"},{"attributes":{"source":{"id":"1001"}},"id":"1026","type":"CDSView"},{"attributes":{"factors":["1","2","3","4","5","6","7"]},"id":"1006","type":"FactorRange"},{"attributes":{"fill_color":{"field":"rooms_num","transform":{"id":"1002"}},"line_color":{"field":"rooms_num","transform":{"id":"1002"}},"top":{"field":"price_count"},"width":{"value":1},"x":{"field":"rooms_num"}},"id":"1023","type":"VBar"},{"attributes":{"axis":{"id":"1014"},"grid_line_color":null,"ticker":null},"id":"1016","type":"Grid"},{"attributes":{"data":{"dimension_25%":{"__ndarray__":"AAAAAAAAO0AAAAAAAABHQAAAAAAAAFBAAAAAAADAU0AAAAAAAEBdQLgehetRIGBAAAAAAADQakA=","dtype":"float64","order":"little","shape":[7]},"dimension_50%":{"__ndarray__":"AAAAAAAAQEAAAAAAAABKQAAAAAAAQFFAAAAAAAAAVUAAAAAAAABhQAAAAAAAgGRAAAAAAACwbEA=","dtype":"float64","order":"little","shape":[7]},"dimension_75%":{"__ndarray__":"AAAAAAAAREAAAAAAAABMQAAAAAAAgFNAAAAAAAAAWUAAAAAAAABkQAAAAAAAMGVAAAAAAADAbkA=","dtype":"float64","order":"little","shape":[7]},"dimension_count":{"__ndarray__":"AAAAAACwiUAAAAAAAEiuQAAAAAAAeKVAAAAAAADIhUAAAAAAAIBKQAAAAAAAAAhAAAAAAAAAEEA=","dtype":"float64","order":"little","shape":[7]},"dimension_max":{"__ndarray__":"AAAAAADgYUAAAAAAAEBgQAAAAAAAUIRAAAAAAABgc0AAAAAAACBtQAAAAAAA4GVAAAAAAADQcUA=","dtype":"float64","order":"little","shape":[7]},"dimension_mean":{"__ndarray__":"v6EMt8+lQEBbiPnj27BJQOULbr/z/VFA5g5q/a91V0ApXI/C9RBhQHsUrkfhCmJAAAAAAADgbEA=","dtype":"float64","order":"little","shape":[7]},"dimension_min":{"__ndarray__":"AAAAAAAAJkAAAAAAAAAcQAAAAAAAAD9AAAAAAACASkAAAAAAAABLQOF6FK5HgVdAAAAAAACAZkA=","dtype":"float64","order":"little","shape":[7]},"dimension_std":{"__ndarray__":"mLXMCgu3JEARk8PkRdIhQGjEc/VizTJAf/mGQF+yOUASO42/ohlBQLg1fv9I9kVA3suM/IB/RUA=","dtype":"float64","order":"little","shape":[7]},"id_25%":{"__ndarray__":"AAAAAIBro0AAAAAAALufQAAAAAAAb6BAAAAAAAB0oUAAAAAAAIygQAAAAAAAC7ZAAAAAAACGjUA=","dtype":"float64","order":"little","shape":[7]},"id_50%":{"__ndarray__":"AAAAAACIsUAAAAAAAPOvQAAAAAAACbBAAAAAAADnsEAAAAAAABKyQAAAAAAAMblAAAAAAABankA=","dtype":"float64","order":"little","shape":[7]},"id_75%":{"__ndarray__":"AAAAAMAQuUAAAAAAQBy4QAAAAADATrhAAAAAAADst0AAAAAAAHO5QAAAAAAAIbxAAAAAAIBdq0A=","dtype":"float64","order":"little","shape":[7]},"id_count":{"__ndarray__":"AAAAAACwiUAAAAAAAEiuQAAAAAAAeKVAAAAAAADIhUAAAAAAAIBKQAAAAAAAAAhAAAAAAAAAEEA=","dtype":"float64","order":"little","shape":[7]},"id_max":{"__ndarray__":"AAAAAAAlwEAAAAAAACPAQAAAAACAJsBAAAAAAIAjwEAAAAAAgCDAQAAAAAAAEb9AAAAAAADStkA=","dtype":"float64","order":"little","shape":[7]},"id_mean":{"__ndarray__":"5NblHfBbsUDSL3Ps+RSwQOlwf3beLbBAxgQL8lVcsEAYb2WfQ9uwQAAAAAAADblAAAAAAACSo0A=","dtype":"float64","order":"little","shape":[7]},"id_min":{"__ndarray__":"AAAAAADAUEAAAAAAAIBPQAAAAAAAAE9AAAAAAACAUkAAAAAAAIBkQAAAAAAA5bJAAAAAAABQckA=","dtype":"float64","order":"little","shape":[7]},"id_std":{"__ndarray__":"nDRS1nk6okBQYXwTQp+iQPam5PPVb6JAJ5edg8hbokA6JyPlnCqjQOVAl2Q/WZhAE27JUZQSo0A=","dtype":"float64","order":"little","shape":[7]},"price_25%":{"__ndarray__":"AAAAAACQSkAAAAAAAGBUQAAAAAAAQFpAAAAAAABAX0AAAAAAAOBhQAAAAAAAQGlAAAAAAAC4b0A=","dtype":"float64","order":"little","shape":[7]},"price_50%":{"__ndarray__":"AAAAAABAT0AAAAAAACBXQAAAAAAAgF5AAAAAAABQYUAAAAAAAGBoQAAAAAAAoGlAAAAAAACQcEA=","dtype":"float64","order":"little","shape":[7]},"price_75%":{"__ndarray__":"AAAAAABAU0AAAAAAAIBbQAAAAAAAYGJAAAAAAABAZUAAAAAAAIBwQAAAAAAAcGxAAAAAAAD4cUA=","dtype":"float64","order":"little","shape":[7]},"price_count":{"__ndarray__":"AAAAAACwiUAAAAAAAEiuQAAAAAAAeKVAAAAAAADIhUAAAAAAAIBKQAAAAAAAAAhAAAAAAAAAEEA=","dtype":"float64","order":"little","shape":[7]},"price_max":{"__ndarray__":"TmIQWDlucEAAAAAAAIB9QAAAAAAAkIBAAAAAAABwgkAAAAAAACB8QAAAAAAAQG9AAAAAAABQdEA=","dtype":"float64","order":"little","shape":[7]},"price_mean":{"__ndarray__":"DgpCNcAJUEBKLQnCjVJYQNfsc0OvVGBA5sszlBLxY0A1Zgv5M/9qQAAAAAAAQGtAAAAAAABEcUA=","dtype":"float64","order":"little","shape":[7]},"price_min":{"__ndarray__":"AAAAAAAAM0DNzMzMzMwAQAAAAAAAwEdAAAAAAACAU0AAAAAAAMBVQAAAAAAA4GhAAAAAAABAb0A=","dtype":"float64","order":"little","shape":[7]},"price_std":{"__ndarray__":"Rqx+jecEM0DxhJld/+U7QHchJQtG3ERALq1QmIAsT0CNlDu/+phUQEqC16Ht3ztAvnx8PLofQUA=","dtype":"float64","order":"little","shape":[7]},"rooms_num":["1","2","3","4","5","6","7"]},"selected":{"id":"1033"},"selection_policy":{"id":"1032"}},"id":"1001","type":"ColumnDataSource"}],"root_ids":["1003"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1111').textContent;
+                  var render_items = [{"docid":"6d47bfdf-7ca9-4330-8b94-583ba6bcfc19","root_ids":["1003"],"roots":{"1003":"70f8acf4-2379-497c-998f-64d115307b56"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
