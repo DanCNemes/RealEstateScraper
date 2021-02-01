@@ -1,6 +1,6 @@
 # RealEstateScraper
 
-This idea was intended to be an entry project into data science and the world of data processing.
+The scope of this project is scraping real estate data for visualizing and interpreting the information in order to see market trends and make informed decisions.
 
 Source of the data: www.imobiliare.ro
 Type of data: real estate data, consisting of apartment prices, dimensions, characteristics and location
