@@ -8,6 +8,6 @@ Type of data: real estate data, consisting of apartment prices, dimensions, char
 
 Data collection: web scraping, using libraries such as BeautifulSoup and Selenium and crawl between html pages
 
-Data processing: using python standard utilities in order to make the data as standard as possible
+Data processing: using python for ETL such as: splitting, removing whitespace, removing duplicates, transform the data
 
 Data usage: visualising the data using pandas/numpy and Bokeh library for creating visualisations.
